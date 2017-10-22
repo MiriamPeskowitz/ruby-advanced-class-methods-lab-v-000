@@ -38,7 +38,7 @@ class Song
     artist_name = section[0]
     song_name = section[1].gsub(".mp3", "")
     song = Song.new
-    song.name = name 
+    song.name = name
     song.artist = artist_name
     song
 
