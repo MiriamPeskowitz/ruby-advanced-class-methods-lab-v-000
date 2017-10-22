@@ -50,7 +50,7 @@ class Song
     # song = self.create
     # song.name = name
     # song.artist_name = artist_name
-    save
+    self.save
     song
   end
 
@@ -58,7 +58,7 @@ class Song
     @@all
   end
 
-  def save
+  def self,save
     self.class.all << self
   end
 
