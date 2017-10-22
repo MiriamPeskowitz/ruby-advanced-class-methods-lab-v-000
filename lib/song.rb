@@ -50,15 +50,15 @@ class Song
     # song = self.create
     # song.name = name
     # song.artist_name = artist_name
-    self.save
-    song
+    save
+
   end
 
   def self.all
     @@all
   end
 
-  def self.save
+  def save
     self.class.all << self
   end
 
