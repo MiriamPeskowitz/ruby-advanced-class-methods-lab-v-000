@@ -42,7 +42,7 @@ class Song
     song.name = song_name
     song.artist_name = artist_name
     song
-
+ #this sequence was confusing -- figure out why. 
     # song.artist_name = artist_name
   end
 
