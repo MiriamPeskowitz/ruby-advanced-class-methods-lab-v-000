@@ -37,9 +37,10 @@ class Song
     section = filename.split(" - ")
     artist_name = section[0]
     song_name = section[1].gsub(".mp3", "")
-    song = Song.new
-    song.name = name
-    artist_name = song.artist
+    
+    song = self.new
+    song.name = song_name
+    song.artist_name = artist_name
     song
 
     # song.artist_name = artist_name
